@@ -1,0 +1,369 @@
+@media (max-width:576px){
+
+    .toggler-icon{
+        color: #fff;
+    }
+    .nav-item{
+        margin: auto;
+        padding: 5px 0;
+    }
+
+    .navbar-nav{
+        margin-top: 25px;
+
+}
+
+.bannerimages{
+    display: none;
+}
+
+.banner_img_phone{
+    display: block;
+    width: 260px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.bannertext{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.bannertext h1{
+    font-size: 35px;
+}
+
+.button1{
+    margin-bottom: 90px;
+}
+
+.button2{
+    margin-bottom: 90px;
+}
+
+.features h1{
+    font-size: 28px;
+    padding-bottom: 3px;
+}
+.mainicon{
+    margin-bottom: 20px;
+}
+
+.beautiimg img{
+    height: 63%;
+    margin-left: 96px;
+}
+
+.beautitext {
+    margin-top: -200px;
+}
+
+.beautitext h1{
+    font-size: 28px;
+}
+
+.supertext h1{
+    font-size: 28px;
+}
+
+.carotext h1{
+    font-size: 28px;
+}
+
+.liketext h2{
+    font-size: 28px;
+
+}
+
+.liketext span {
+    font-size: 28px;
+}
+
+.btnmain{
+    margin-top: 30px;
+}
+
+.pricemain {
+    margin-top: -30px;
+}
+
+.pricehead h1{
+    font-size: 28px; 
+}
+
+.priceres{
+    margin-bottom: 30px;
+}
+
+.contacttext h1{
+    font-size: 28px;  
+}
+
+.contactmain{
+    padding-bottom: 612px;
+}
+.contactform{
+    background-color: #1a1a1a;
+    padding: 30px;
+    width: 60%;
+    text-align: end;
+    margin: auto;
+    position: absolute;
+    left: 27%;
+    bottom: -50px;
+    transform: translateX(-10%);
+}
+
+.contactform form input{
+    padding: 15px;
+  
+}
+}
+
+@media (max-width:767px){
+    .toggler-icon{
+        color: #fff;
+    }
+    .nav-item{
+        margin: auto;
+        padding: 5px 0;
+    }
+
+    .navbar-nav{
+        margin-top: 25px;
+
+}
+.bannerimages{
+    display: none;
+}
+
+.banner_img_phone{
+    display: block;
+    margin: auto;
+    width: 300px;
+    padding-top: 48px;
+    
+}
+
+.bannertext{
+    width: 100%;
+    text-align: center;
+    margin-top: 58px;
+}
+.bannertext h1{
+    font-size: 35px;
+}
+.features h1{
+    font-size: 28px;
+    padding-bottom: 3px;
+}
+.beautitext h1{
+    font-size: 28px;
+}
+.supertext h1{
+    font-size: 28px;
+}
+
+.carotext h1{
+    font-size: 28px;
+}
+
+.liketext h2{
+    font-size: 28px;
+    
+
+}
+.liketext h2{
+    font-size: 25px;
+
+}
+
+.liketext span {
+    font-size: 25px;
+}
+
+.liketextbtn1{
+    padding: 10px 20px;
+    margin: 20px 5px;
+}
+
+.liketextbtn2{
+    padding: 10px 20px;
+    margin: 20px 5px;
+}
+.pricehead h1{
+    font-size: 28px; 
+}
+
+.priceres{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contactform{
+    background-color: #1a1a1a;
+    padding: 20px;
+    padding-top: 90px;
+    width: 82%;
+    min-height: 500px;
+    text-align: end;
+    margin: auto;
+    position: absolute;
+    left: 18%;
+    bottom: -70px;
+    transform: translateX(-10%);
+   
+
+}
+.contacttext h1{
+    font-size: 28px;  
+}
+.contactform form textarea{
+    padding: 6px 12px;
+
+}
+.contactform form input{
+    padding: 15px 19px;
+}
+
+.contactmain{
+    padding-bottom: 615px;
+}
+
+.contactform form input[type="submit"]{
+    font-size: 16px;
+    padding: 12px 25px;
+}
+}
+
+@media (max-width:991px){
+    .toggler-icon{
+        color: #fff;
+    }
+    .nav-item{
+        margin: auto;
+        padding: 5px 0;
+    }
+
+    .navbar-nav{
+        margin-top: 25px;
+
+}
+.bannerimages{
+    display: none;
+}
+
+.banner_img_phone{
+    display: block;
+    margin: auto;
+    width: 300px;
+    padding-top: 48px;
+    
+}
+
+.bannertext{
+    width: 100%;
+    text-align: center;
+    margin-top: 58px;
+}
+.bannertext h1{
+    font-size: 35px;
+}
+.features h1{
+    font-size: 28px;
+    padding-bottom: 3px;
+}
+.beautitext h1{
+    font-size: 28px;
+}
+.supertext h1{
+    font-size: 28px;
+}
+
+.carotext h1{
+    font-size: 28px;
+}
+
+.liketext h2{
+    font-size: 28px;
+    
+
+}
+.liketext h2{
+    font-size: 25px;
+
+}
+
+.liketext span {
+    font-size: 25px;
+}
+
+.liketextbtn1{
+    padding: 10px 20px;
+    margin: 20px 5px;
+}
+
+.liketextbtn2{
+    padding: 10px 20px;
+    margin: 20px 5px;
+}
+.pricehead h1{
+    font-size: 28px; 
+}
+
+.priceres{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contactform{
+    background-color: #1a1a1a;
+    padding: 20px;
+    padding-top: 90px;
+    width: 82%;
+    min-height: 500px;
+    text-align: end;
+    margin: auto;
+    position: absolute;
+    left: 18%;
+    bottom: -70px;
+    transform: translateX(-10%);
+   
+
+}
+.contacttext h1{
+    font-size: 28px;  
+}
+.contactform form textarea{
+    padding: 4px 12px;
+
+}
+.contactform form input{
+    padding: 18px 19px;
+}
+
+.contactform form input[type="submit"]{
+    font-size: 16px;
+    padding: 12px 25px;
+}
+}
+
+@media (max-width:1199px){
+    .bannerimages {
+        right: 0%;
+    }
+
+    .liketextbtn1{
+        margin-top: 15px;
+    }
+
+    .liketextbtn2{
+        margin-top: 15px;
+    }
+
+    .contactform{
+        width: 64%;
+        left: 24%;
+    }
+
+}

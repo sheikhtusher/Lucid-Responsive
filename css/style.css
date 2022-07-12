@@ -1,0 +1,1078 @@
+
+/* Global CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'source_sans_pro';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Banner CSS */
+
+.banner {
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+}
+
+
+/* Menu CSS */
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 16px;
+    padding: 0;
+    font-family: 'source_sans_pro';
+    font-weight: 500;
+    font-style: normal;
+    position: relative;
+
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+
+}
+
+.navbar-light .navbar-nav .nav-link::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover::after {
+    width: 45%;
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover::before {
+    width: 45%;
+
+}
+
+.headerpart {
+    padding-top: 5px;
+
+}
+
+/* Bannner Text CSS */
+
+.banner_img_phone{
+    display: none;
+}
+
+.bannerpart {
+    min-height: 90vh;
+    align-items: center;
+}
+
+.bannertext h4 {
+
+    color: #008ed6;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding-bottom: 13px;
+}
+
+.bannertext h1 {
+
+    color: #fff;
+    font-size: 48px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.bannertext p {
+
+    color: #999;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+
+.button1 {
+
+    color: #fff;
+    border: 1px solid #008ed6;
+    background-color: #008ed6;
+    padding: 13px 29px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .4s all ease-in-out;
+}
+
+
+.button1:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #999;
+}
+
+.button2 {
+
+    color: #fff;
+    border: 1px solid #999;
+    background-color: transparent;
+    padding: 13px 29px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.button2:hover {
+    background-color: #008ed6;
+    color: #fff;
+    border: 1px solid #999;
+}
+
+.bannerimages {
+    position: absolute;
+    bottom: 0;
+    right: 8%;
+}
+
+/* Feature Item CSS */
+
+.features h6 {
+
+    color: #008ed6;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 11px;
+}
+
+.features h1 {
+
+    color: #1a1a1a;
+    font-size: 38px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.features span {
+    display: block;
+    height: 3px;
+    width: 6%;
+    margin: auto;
+    position: relative;
+
+}
+
+
+.features span::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0px;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .5s all ease-in-out;
+
+}
+
+.features span::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0px;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .5s all ease-in-out;
+
+}
+
+.features:hover span::before {
+    width: 45%;
+}
+
+
+.features:hover span::after {
+    width: 45%;
+}
+
+.feature_icon {
+
+    text-align: center;
+}
+
+.feature_icon h2 {
+
+    padding-top: 26px;
+    font-size: 24px;
+}
+
+.feature_icon p {
+
+    padding-top: 20px;
+    font-size: 18px;
+    color: #999;
+}
+
+.iconbox {
+
+    border: 1px solid #d1d1d1;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: auto;
+    line-height: 100px;
+    font-size: 30px;
+    color: #008ed6;
+}
+
+
+/* Beautiful Item CSS */
+
+.beautifulmain {
+
+    border-top: 1px solid #f1eded;
+}
+
+.beautitext h6 {
+
+    color: #008ed6;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    padding-bottom: 11px;
+}
+
+.beautitext h1 {
+
+    color: #1a1a1a;
+
+    font-size: 38px;
+
+    font-weight: 600;
+
+    padding-bottom: 22px;
+}
+
+.beautitext span {
+
+    display: block;
+
+    height: 3px;
+
+    width: 10%;
+    position: relative;
+}
+
+.beautitext span::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+
+.beautitext span::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+
+.beautitext:hover span::before {
+    width: 45%;
+}
+
+.beautitext:hover span::after {
+    width: 45%;
+}
+
+
+.beautitext p {
+
+    font-size: 18px;
+
+    color: #999;
+
+    padding-top: 15px;
+
+    padding-bottom: 35px;
+}
+
+.beautitext ul {
+    list-style: none;
+}
+
+.beautitext ul li {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.icon {
+    height: 25px;
+    width: 25px;
+    font-size: 20px;
+    text-align: center;
+    color: #008ed6;
+    margin-right: 10px;
+}
+
+
+/* Super easy CSS */
+
+.superpart {
+    background-color: #f2f2f2
+}
+
+.superbody {
+    min-height: 50vh;
+    align-items: center;
+}
+
+.supertext h6 {
+
+    color: #008ed6;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    padding-bottom: 11px;
+}
+
+.supertext h1 {
+
+    color: #1a1a1a;
+
+    font-size: 38px;
+
+    font-weight: 600;
+
+    padding-bottom: 22px;
+}
+
+.supertext span {
+
+    display: block;
+
+    height: 3px;
+
+    width: 10%;
+
+    position: relative;
+}
+
+
+.supertext span::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+
+.supertext span::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+
+.supertext:hover span::before {
+    width: 45%;
+}
+
+.supertext:hover span::after {
+    width: 45%;
+}
+
+.supertext p {
+    font-size: 18px;
+
+    color: #999;
+
+    padding-top: 15px;
+
+    padding-bottom: 35px;
+
+}
+
+.superimg img {
+    width: 98%;
+}
+
+
+/* Carousel CSS */
+
+
+.carouselpart {
+    background-image: url(../images/testi.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.carotext h6 {
+
+    color: #008ed6;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    padding-bottom: 11px;
+}
+
+.carotext h1 {
+
+    color: #fff;
+
+    font-size: 38px;
+
+    font-weight: 600;
+
+    padding-bottom: 30px;
+}
+
+.carotext span {
+
+    display: block;
+
+    height: 3px;
+
+    width: 6%;
+
+    margin: auto;
+
+    position: relative;
+}
+
+
+.carotext span::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+
+.carotext span::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+
+.carotext:hover span::before {
+    width: 45%;
+}
+
+.carotext:hover span::after {
+    width: 45%;
+}
+
+.caroutext {
+    margin-right: 20px;
+
+}
+
+.caroutext p {
+
+    color: #fff;
+
+    font-size: 16px;
+
+    font-style: italic;
+
+}
+
+.imagepart {
+    display: flex;
+    margin-top: 44px;
+    align-items: center;
+}
+
+.textpart {
+    margin-left: 20px;
+}
+
+.textpart h3 {
+
+    color: #fff;
+
+    font-size: 15px;
+}
+
+.textpart h4 {
+
+    color: #fff;
+
+    font-size: 18px;
+
+    font-weight: 600;
+}
+
+.owl-dots .owl-dot span {
+    display: block;
+    height: 8px;
+    width: 8px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid #999;
+}
+
+
+.owl-dots .active span {
+    display: block;
+    height: 13px;
+    width: 13px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.owl-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.owl-dots .owl-dot {
+    margin: 5px;
+}
+
+
+/* Like What CSS */
+
+.likewhat {
+    background-color: #1a1a1a;
+    padding: 40px 0;
+}
+
+.liketext h2 {
+
+    color: #fff;
+
+    font-size: 36px;
+
+    font-weight: 600;
+}
+
+.liketext span {
+    color: #c9c7cf;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.liketextbtn1 {
+
+    color: #fff;
+
+    border: 1px solid #999;
+
+    background-color: transparent;
+
+    padding: 13px 29px;
+
+    font-size: 14px;
+
+    text-transform: uppercase;
+
+    font-weight: 600;
+
+    transition: .4s all ease-in-out;
+}
+
+.liketextbtn1:hover {
+    background-color: #008ed6;
+    color: #fff;
+}
+
+.liketextbtn2 {
+
+    color: #fff;
+
+    border: 1px solid #008ed6;
+
+    background-color: #008ed6;
+
+    padding: 13px 29px;
+
+    font-size: 14px;
+
+    text-transform: uppercase;
+
+    font-weight: 600;
+
+    margin-left: 20px;
+}
+
+.liketextbtn2:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #999;
+}
+
+
+/* Pricing CSS */
+
+
+.pricehead h6 {
+
+    color: #008ed6;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    padding-bottom: 11px;
+}
+
+.pricehead h1 {
+
+    color: #1a1a1a;
+
+    font-size: 38px;
+
+    font-weight: 600;
+
+    padding-bottom: 30px;
+}
+
+.pricehead span {
+
+    display: block;
+
+    height: 3px;
+
+    width: 6%;
+
+    margin: auto;
+
+    position: relative;
+}
+
+
+.pricehead span::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+
+.pricehead span::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+
+.pricehead:hover span::before {
+    width: 45%;
+}
+
+.pricehead:hover span::after {
+    width: 45%;
+}
+
+.pricingtable {
+
+    text-align: center;
+
+    border: 1px solid #999;
+}
+
+.pricingtable h2 {
+
+    font-weight: 600;
+
+    border-bottom: 1px solid #999;
+
+    padding: 12px;
+
+    text-transform: uppercase;
+
+    font-size: 30px;
+    transition: .4s all ease-in-out;
+}
+
+.price {
+
+    border-bottom: 1px solid #999;
+
+    padding: 30px;
+    transition: .4s all ease-in-out;
+}
+
+.price h1 {
+
+    font-size: 50px;
+
+    font-weight: 600;
+}
+
+.price h1 sup {
+
+    font-weight: 600;
+
+    font-size: 29px;
+}
+
+.price h6 {
+
+    color: #999;
+    transition: .4s all ease-in-out;
+}
+
+.pricingtable p {
+
+    padding: 29px;
+
+    font-size: 21px;
+
+    color: #999;
+}
+
+.pricingtable p span {
+
+    color: #008ed6;
+}
+
+.ordernow {
+
+    color: #008ed6;
+
+    border: 1px solid #999;
+
+    background-color: transparent;
+
+    padding: 13px 29px;
+
+    font-size: 16px;
+
+    text-transform: uppercase;
+
+    font-weight: 600;
+
+    transition: .4s all ease-in-out;
+
+    margin: 24px 0;
+}
+
+.pricingtable:hover h2 {
+    color: #008ed6;
+}
+
+.pricingtable:hover .price {
+    background-color: #008ed6;
+    color: #fff;
+}
+
+.pricingtable:hover .price h6 {
+    color: #fff;
+}
+
+.pricingtable:hover .ordernow {
+    background-color: #008ed6;
+    color: #fff;
+}
+
+.contactmain {
+    background-color: #ededed;
+    padding-bottom: 412px;
+    padding-top: 68px;
+    position: relative;
+}
+
+/* Contact Part CSS */
+
+
+.contacttext h6 {
+
+    color: #008ed6;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    padding-bottom: 11px;
+}
+
+.contacttext h1 {
+
+    color: #1a1a1a;
+
+    font-size: 38px;
+
+    font-weight: 600;
+
+    padding-bottom: 30px;
+}
+
+.contacttext span {
+
+    display: block;
+
+    height: 3px;
+
+    width: 6%;
+
+    margin: auto;
+
+    position: relative;
+}
+
+
+.contacttext span::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+
+.contacttext span::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+
+.contacttext:hover span::before {
+    width: 45%;
+}
+
+.contacttext:hover span::after {
+    width: 45%;
+}
+
+.contactbox {
+    margin-top: 60px;
+}
+
+.contactbox p {
+
+    color: #999;
+}
+
+.conicon {
+
+    padding-bottom: 20px;
+
+    font-size: 30px;
+
+    color: #008ed6;
+}
+
+.contactform {
+    background-color: #1a1a1a;
+    padding: 50px;
+    width: 50%;
+    text-align: end;
+    margin: auto;
+    position: absolute;
+    left: 28%;
+    bottom: -51px;
+    transform: translateX(-51px);
+}
+
+.contactform form input {
+
+    background-color: transparent;
+    border: 1px solid #999;
+    border-radius: 5px;
+    outline: none;
+    padding: 25px 12px;
+    margin-bottom: 28px;
+    color: #fff;
+}
+
+.contactform input:focus{
+    box-shadow: none;
+    outline: none;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #999999;
+}
+.contactform form textarea {
+    background-color: transparent;
+    border: 1px solid #999;
+    outline: none;
+    padding: 20px 19px;
+    margin-bottom: 25px;
+    margin-right: 126px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.contactform textarea:focus{
+    box-shadow: none;
+    outline: none;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #999999;
+}
+.contactform form input[type="submit"] {
+    background-color: #008ed6;
+    font-weight: 600;
+    border: none;
+    transition: .4s all ease-in-out;
+    padding: 18px 30px;
+    font-size: 18px;
+}
+
+.contactform form input[type="submit"]:hover {
+    background-color: transparent;
+    border: 1px solid #999;
+}
+
+/* Footer CSS */
+
+
+footer {
+    background-color: #1a1a1a;
+    padding: 24px 0;
+    margin-top: -8px;
+
+}
+
+.footericon ul {
+
+    list-style: none;
+
+    display: flex;
+
+    justify-content: center;
+}
+
+.footericon ul li {
+    padding: 15px;
+    font-size: 20px;
+}
+
+.footericon ul li a {
+
+    color: #444348;
+}
+
+.footericon ul li a span {
+
+    color: #008ed6;
+}
+
+.footertext h3 {
+
+    color: #444348;
+
+    font-size: 16px;
+}
